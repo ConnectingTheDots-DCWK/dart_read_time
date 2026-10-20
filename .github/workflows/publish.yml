@@ -20,8 +20,10 @@
 #
 # The Flutter SDK comes from .fvmrc, the pin the hooks use. setup-dart is there
 # only for the step that turns the OIDC token into pub's credentials; the
-# publish itself runs on Flutter's Dart, because the package's environment
-# names a Flutter version and a standalone Dart cannot satisfy that.
+# publish itself runs on Flutter's Dart, so the archive is checked and
+# uploaded by the same SDK the hooks run. The package is pure Dart and names
+# no Flutter version — a standalone Dart of the same release would do as
+# well; Flutter's is used because .fvmrc is the one pin there is.
 name: publish
 
 on:
