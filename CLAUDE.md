@@ -57,7 +57,8 @@ tag costs a rate rather than an order of magnitude.
 
 **Hangul is not a counted script**, and it is the one thing here most likely to
 be "fixed" by somebody going on appearance. Korean spaces its eojeol. Moving it
-in with Han and kana would roughly triple every Korean estimate, and
+in with Han and kana would overstate every Korean estimate, by up to about
+double, and
 `speed_table_test.dart` has a test named after it for exactly that reason.
 
 `ReadingSpeed.nativeScripts` is what separates a language's own script from a

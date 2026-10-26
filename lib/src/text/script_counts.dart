@@ -15,7 +15,7 @@ import 'package:meta/meta.dart';
 /// **Hangul is deliberately absent**, and it is the trap this enum exists to
 /// avoid. Korean looks East Asian and is not written like it: it spaces its
 /// eojeol, so Korean is word-counted like any Latin text. Filing it here would
-/// roughly triple every Korean estimate.
+/// overstate every Korean estimate, by up to about double.
 enum CountingScript {
   /// Chinese characters, wherever they appear — hanzi, kanji, hanja.
   han,

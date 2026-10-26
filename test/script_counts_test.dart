@@ -25,7 +25,7 @@ void main() {
         isNull,
         reason:
             'Korean is spaced by eojeol. Counting it by the character would '
-            'roughly triple every Korean estimate.',
+            'overstate every Korean estimate, by up to about double.',
       );
     });
 

@@ -46,8 +46,8 @@ language still gets counted by whatever script it is actually written in.
 
 **Korean is counted by the word.** Hangul looks East Asian and is not written
 like it — Korean spaces its eojeol — so filing it with Chinese and Japanese
-would roughly triple every Korean estimate. It is the mistake this library is
-most careful about.
+would overstate every Korean estimate, by up to about double. It is the
+mistake this library is most careful about.
 
 ## Text in more than one language
 
